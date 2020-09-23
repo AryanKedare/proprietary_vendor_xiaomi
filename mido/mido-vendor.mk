@@ -1158,6 +1158,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
+    libbtconfigstore \
     libsdm-disp-vndapis \
     libthermalclient \
     libts_detected_face_hal \
